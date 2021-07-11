@@ -18,13 +18,13 @@ function setup(){
     goku=new Goku(850,400,100,200);
     vegeta=new Vegeta(150,400,100,200);
     gokuBar2=createSprite(1200, 40, 200, 20);
-    gokuBar2.shapeColor("red");
+    gokuBar2.shapeColor=("red");
     gokuBar1=createSprite(gokuLife*6, 40, gokuLife, 20);
-    gokuBar1.shapeColor("green");
+    gokuBar1.shapeColor=("green");
     vegetaBar2=createSprite(100, 40, 200, 20);
-    vegetaBar2.shapeColor("red");
+    vegetaBar2.shapeColor=("red");
     vegetaBar1=createSprite(vegetaLife/2, 40, vegetaLife, 20);
-    vegetaBar1.shapeColor("green");
+    vegetaBar1.shapeColor=("green");
     ground=new Ground(width/2, height-10, width, 20);
 }
 
